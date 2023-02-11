@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="05dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="12dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+
+        android:id="@+id/item_image"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="05dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/img" />
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:id="@+id/tv_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Md Ibrahim Ali"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20sp"
+        tools:ignore="RtlCompat" />
+
+
+</androidx.cardview.widget.CardView>

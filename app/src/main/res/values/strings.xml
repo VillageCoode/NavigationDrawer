@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Nav Draw</string>
+    <string name="open">Open Drawer</string>
+    <string name="close">Close Drawer</string>
+    <string name="home">Home</string>
+    <string name="welcome">Welcome</string>
+</resources>
